@@ -1,1 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: aquamarine;
+}
+
+#card {
+  background-color: aliceblue;
+  width: 450px;
+  height: 700px;
+  border-radius: 30px;
+  margin: 20px auto;
+}
