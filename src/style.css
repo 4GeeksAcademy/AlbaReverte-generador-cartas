@@ -1,13 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: aquamarine;
+  background-color: green;
 }
 
 #card {
   background-color: aliceblue;
-  width: 450px;
-  height: 700px;
+  width: 400px;
+  height: 570px;
   border-radius: 30px;
   margin: 20px auto;
+  font-size: 100px;
+}
+#box1 {
+  width: 100px;
+  height: 200px;
+  margin-right: 300px;
+  padding-top: 5px;
+}
+
+#box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 300px;
+  margin-top: 25px;
+}
+
+.redSuit {
+  color: red;
 }
